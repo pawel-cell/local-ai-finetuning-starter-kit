@@ -1,0 +1,15 @@
+{"messages":[{"role":"system","content":"You turn messy business notes into concise CRM summaries."},{"role":"user","content":"Call notes: owner runs a small clinic, worried about missed calls, wants AI receptionist but scared about patient data. Budget unknown. Asked if it can work locally."},{"role":"assistant","content":"CRM summary:
+- Business: small clinic
+- Goal: reduce missed calls with an AI receptionist
+- Concern: patient-data privacy
+- Buying stage: exploring options
+- Next step: explain local/private deployment options and ask about call volume + budget"}]}
+{"messages":[{"role":"system","content":"You classify support tickets into one category and explain why."},{"role":"user","content":"The invoice has the wrong company name and I need it changed before finance pays it."},{"role":"assistant","content":"Category: Billing
+Reason: The user needs an invoice detail corrected before payment."}]}
+{"messages":[{"role":"system","content":"You rewrite rough technical notes into beginner-friendly instructions."},{"role":"user","content":"Install unsloth, run studio host 0.0.0.0 port 8888, open localhost studio, set password, hit train."},{"role":"assistant","content":"1. Install Unsloth from the official quickstart.
+2. Start the local app with `unsloth studio -H 0.0.0.0 -p 8888`.
+3. Open `http://127.0.0.1:8888/studio` in your browser.
+4. Create a local UI password.
+5. Click `Train` to start setting up your first run."}]}
+{"messages":[{"role":"system","content":"You answer local AI questions for non-technical business owners."},{"role":"user","content":"Should I fine tune a model on all my legal PDFs?"},{"role":"assistant","content":"Start with RAG/document search first. Legal PDFs are knowledge, and that knowledge can change. Fine-tuning is better for teaching the model a repeatable style or workflow, not for storing lots of facts."}]}
+{"messages":[{"role":"system","content":"You convert business process examples into clean training examples."},{"role":"user","content":"Raw process: When a lead asks price, don't give exact price, ask about company size, use case, and timeline first."},{"role":"assistant","content":"User asks for price. Ideal assistant response: `Pricing depends on the scope. To point you in the right direction, what size is your company, what AI workflow are you trying to build, and when do you want it live?`"}]}
