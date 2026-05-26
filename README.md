@@ -12,10 +12,7 @@ This repo gives viewers the practical files behind the lead magnet:
 ## Necessary links from the video / notes
 
 - Unsloth Studio docs: https://unsloth.ai/docs/new/studio
-- Hugging Face: https://huggingface.co/
 - Open-source model comparison: https://artificialanalysis.ai/models/open-source
-- Small Qwen model: https://huggingface.co/unsloth/Qwen3-0.6B
-- 4-bit small Qwen model: https://huggingface.co/unsloth/Qwen3-0.6B-bnb-4bit
 
 ## Quick local Unsloth Studio flow
 
@@ -39,10 +36,8 @@ http://127.0.0.1:8888/studio
 8. Set a **local UI password**. This only locks the local browser UI — it is not a real online account. David's notes used `admin1234` as a demo example, but use your own password and do not reuse a password from anywhere else.
 9. Click **Train** on the left.
 10. Choose a model to train.
-    - Go to https://huggingface.co/ to search models.
     - If you do not know what model to choose, compare open-source models at https://artificialanalysis.ai/models/open-source.
     - For learning on a normal computer, start small before trying large models.
-    - David’s notes say Qwen 3.6 / `unsloth/Qwen3.6`; the public model page that resolves is `unsloth/Qwen3-0.6B`: https://huggingface.co/unsloth/Qwen3-0.6B
 
 ## Rule of thumb
 
